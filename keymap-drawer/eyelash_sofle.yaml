@@ -93,17 +93,17 @@ layers:
   - _
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '!'
-  - '*'
-  - {t: /, s: '?'}
-  - {t: '=', s: +}
+  - {t: '!', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '*', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: /, h: '$$mdi:apple-keyboard-option$$', s: '?'}
+  - {t: '=', h: '$$mdi:apple-keyboard-command$$', s: +}
   - '&'
   - {t: '$$mdi:transfer$$', type: trans}
   - '#'
-  - (
-  - )
-  - {t: ;, s: ':'}
-  - '"'
+  - {t: (, h: RIGHT GUI}
+  - {t: ), h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: '$$mdi:apple-keyboard-shift$$', s: ':'}
+  - {t: '"', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '~'
