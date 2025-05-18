@@ -59,11 +59,11 @@
 
         symbols {
             bindings = <
-&trans  &trans     &trans         &trans            &trans             &trans         &trans  &trans     &trans                &trans                 &trans      &trans             &trans
-&trans  &kp GRAVE  &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS          &kp PIPE       &trans  &kp CARET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR  &kp UNDERSCORE     &trans
-&trans  &kp EXCL   &kp ASTRK      &kp SLASH         &kp EQUAL          &kp AMPS       &trans  &kp HASH   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI    &kp DOUBLE_QUOTES  &trans
-&trans  &kp TILDE  &kp PLUS       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PERCENT    &trans  &kp AT     &kp COLON             &kp COMMA              &kp DOT     &kp SINGLE_QUOTE   &trans
-&trans  &trans     &trans         &trans            &trans             &trans         &trans  &trans     &trans                &trans                 &trans      &trans
+&trans  &trans                 &trans                &trans              &trans              &trans         &trans  &trans     &trans                          &trans                           &trans                &trans                           &trans
+&trans  &kp GRAVE              &kp LESS_THAN         &kp GREATER_THAN    &kp MINUS           &kp PIPE       &trans  &kp CARET  &kp LEFT_BRACE                  &kp RIGHT_BRACE                  &kp DOLLAR            &kp UNDERSCORE                   &trans
+&trans  &mt LEFT_CONTROL EXCL  &mt LEFT_SHIFT ASTRK  &mt LEFT_ALT SLASH  &mt LEFT_GUI EQUAL  &kp AMPS       &trans  &kp HASH   &mt RIGHT_GUI LEFT_PARENTHESIS  &mt RIGHT_ALT RIGHT_PARENTHESIS  &mt RIGHT_SHIFT SEMI  &mt RIGHT_CONTROL DOUBLE_QUOTES  &trans
+&trans  &kp TILDE              &kp PLUS              &kp LEFT_BRACKET    &kp RIGHT_BRACKET   &kp PERCENT    &trans  &kp AT     &kp COLON                       &kp COMMA                        &kp DOT               &kp SINGLE_QUOTE                 &trans
+&trans  &trans                 &trans                &trans              &trans              &trans         &trans  &trans     &trans                          &trans                           &trans                &trans
             >;
         };
 
