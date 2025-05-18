@@ -25,7 +25,10 @@
     trigger-period-ms = <16>;
 };
 
-&mt { tapping-term-ms = <500>; };
+&mt {
+    tapping-term-ms = <500>;
+    flavor = "tap-preferred";
+};
 
 &lt { tapping-term-ms = <500>; };
 
